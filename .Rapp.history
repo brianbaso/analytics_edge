@@ -1,0 +1,5 @@
+tapply(WHO$Over60, WHO$Region, mean)
+getwd()
+setwd("/Users/brianbaso/Documents/analyitics_edge/")#
+WHO <- read.csv("WHO.csv")#
+table(WHO$Region)

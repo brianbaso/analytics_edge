@@ -1,0 +1,5 @@
+setwd("/Users/brianbaso/Documents/analyitics_edge/")
+WHO <- read.csv("WHO.csv")
+summary(WHO)
+print("hi")
+tapply(WHO$ChildMortality, WHO$Region, mean)
